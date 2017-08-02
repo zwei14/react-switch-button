@@ -96,7 +96,8 @@ var SwitchButton = _react2['default'].createClass({
       disabled: this.props.disabled,
       id: id, name: this.props.name,
       type: 'checkbox',
-      value: '1' }), _react2['default'].createElement('label', { htmlFor: id }), labelRight);
+      checked: this.props.checked
+    }), _react2['default'].createElement('label', { htmlFor: id }), labelRight);
   }
 
 });

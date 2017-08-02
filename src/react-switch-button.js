@@ -92,7 +92,8 @@ const SwitchButton = React.createClass( {
                disabled={this.props.disabled}
                id={id} name={this.props.name}
                type="checkbox"
-               value="1"/>
+							 checked={this.props.checked}
+				/>
         <label htmlFor={id}>
         </label>
         {labelRight}
